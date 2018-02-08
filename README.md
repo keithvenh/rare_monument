@@ -1,8 +1,8 @@
 # A Rare Monument
 
-## A Text Adventure Game by the VH Bros
+A Text Adventure Game by the VH Bros
 
-### Brainstorms and Checklists
+## Brainstorms and Checklists
 
 - [x] Create Remote Git Repository
 - [ ] Zack downloads VS Code
