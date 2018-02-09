@@ -12,6 +12,6 @@ A Text Adventure Game by the VH Bros
 
 ### [Lesson 4 | Branching](04-lesson_four.md)
 
-### [Lesson 5 | The Git Process](05-lesson_five)
+### [Lesson 5 | The Git Process](05-lesson_five.md)
 
 [Go Back](../README.md)
