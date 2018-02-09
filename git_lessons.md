@@ -10,13 +10,13 @@ A Text Adventure Game by the VH Bros
 - [ ] Type ``` ctrl+` ```
   - [ ] Expected response: This should cause a terminal to open at the bottom of your screen
 - [ ] In the terminal type ``` git --version ```
-  - [ ] Expected response: ``` # git version 2.7.4 ```
+  - [ ] Expected response: ``` git version 2.7.4 ```
 - [ ] Type ``` git config --global user.name "Your Name" ```
 - [ ] Type ``` git config --global user.email your.email@example.com ```
 - [ ] Now type ``` git status ```
   - [ ] Expected response: 
 
-```
+```bash
 On branch master
 Your branch is up-to-date with 'origin/master'.
 ```
@@ -33,12 +33,12 @@ This lesson will teach some new git commands, as well as some helpful things to 
   - [ ] A screen pops up, in this screen name your document ``` brainstorm.md ```.
 - [ ] At the top of the file ad the following code:
 
-```md
-# A Rare Monument
-
-A Text Adventure Game by the VH Bros
-
-## Brainstorms
+```markdown
+ 1 # A Rare Monument
+ 2 
+ 3 A Text Adventure Game by the VH Bros
+ 4 
+ 5 ## Brainstorms
 ```
 
 The above is referred to as markdown. It's a simple language that gets converted into html on a website. We use it for a few files because it is easy to learn and write because it looks just like a lot of Word Processors. We'll learn more about what the ``` # ``` and ``` ## ``` means later.
@@ -46,3 +46,9 @@ The above is referred to as markdown. It's a simple language that gets converted
 Congratulations! You created a new markdown file named brainstorm, and added some markdown to it so we know how to use it. We will use this file to add different brainstormed ideas for our game!
 
 ### Lesson 3 | Commiting Your Changes
+
+Okay, so you've added a file and made some changes to the file in our git repository. But how do you save those changes? And how to you get those changes to sync up to the remote repository hosted online. This is the magic of git.
+
+- [ ] In your terminal, type ``` git status ```
+
+Your response should look something like this:
