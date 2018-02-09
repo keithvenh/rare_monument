@@ -8,7 +8,7 @@ A Text Adventure Game by the VH Bros
 - [ ] Zack downloads VS Code
 - [ ] Zack creates github account
 - [ ] Keith teaches Zack Git
-  - [ ] See [Git Lessons](git_lessons.md)
+  - [ ] See [Git Lessons](git_lessons/lesson_one.md)
 - [ ] Zack makes pull request
 - [ ] Keith teaches Zack Markdown
 - [ ] Keith and Zack start learning JavaScript
