@@ -19,6 +19,7 @@ A Text Adventure Game by the VH Bros
 ```bash
 On branch master
 Your branch is up-to-date with 'origin/master'.
+nothing to commmit, working directory clean
 ```
 
 Congratulations! Git is set up and ready to track any changes made to this directory. Now we just need to learn how to properly switch to a different branch, make changes and additions, save the changes and merge the branch back into the master branch.
@@ -52,3 +53,38 @@ Okay, so you've added a file and made some changes to the file in our git reposi
 - [ ] In your terminal, type ``` git status ```
 
 Your response should look something like this:
+
+```bash
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        brainstorm.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+This is git telling you that you have a new file that you have created, but you haven't told git to track the changes you make to that file.
+
+- [ ] To add *all* files so that git will track them, simply type ``` git add . ``` (The ``` . ``` here simply means everything in the current working directory).
+- [ ] Now, type ``` git status ``` again.
+
+Your response should look like this:
+
+```bash
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   brainstorm.md
+```
+
+We now see that our new file is ready to be committed. In git, committing is fairly similary to saving changes. However, git remembers each commit made, so that if you ever change a bunch of things, but don't like the changes, you can tell git to go back to a time before you made those changes, and all your files will look exactly as if you had never made those changes in the first place. The power of git is that it is version control, allowing you to recover to any point in the process. The recovery points are where you made commits. So, lets commit these changes so that we can come back to this point if we have any issues. 
+
+The git commit command is simple, but it requires a parameter, a message. This message describes the changes you made to the repository, so that it is easy to tell what everyone else has been doing, and easy to tell where something went wrong if that happens.
+
+- [ ] In your terminal type ``` git commit -am "Add brainstorm file" ```
+  - [ ] Commit messages are usually typed in present imperative like above rather than past like "Added brainstorm file". Don't ask me why, its just a convention.
+- [ ] Now, type ``` git status ``` again.
