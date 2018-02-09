@@ -12,7 +12,7 @@ In this lesson, we will learn how to make three types of lists: Unordered, or bu
 
 An unordered list is simply a list where the order doesn't matter, such as a grocery list or a to-do list. We would usually represent these with bullet points. To make an unordered list, simply begin a new paragraph, then start your line with a dash. Follow your dash with a single space and then add your list item. For example:
 
-```md 
+```
  1 - List Item 1
  2 - List Item 2
  3 - List Item 3
@@ -26,7 +26,7 @@ This would result in:
 
 You get the idea. Now, the nice thing about lists is that you can have nested lists, similar to an outline. To do so, simply indent the nested item with 2 spaces, and type out your list item like normal. For example:
 
-```md 
+```
  1 - List Item 1
  2 - List Item 2
  3   - List Item 2-1
@@ -52,16 +52,16 @@ Pretty Simple, right? (Note: For an unordered list you can begin your line with 
 
 #### Ordered Lists 
 
-The good news is that ordered lists follow the same pattern, the only difference being that you start your line with a number followed by a period, like so:
+The good news is that ordered lists follow the same pattern, the only differences being that you start your line with a number followed by a period, and to nest items you have to indent them with four spaces, like so:
 
-```md 
+```
  1 1. List Item 1
  2 2. List Item 2
- 3   1. List Item 2-1
- 4   2. List Item 2-2
+ 3     1. List Item 2-1
+ 4     2. List Item 2-2
  5 3. List Item 3
- 6   1. List Item 3-1
- 7     1. List Item 3-1-1
+ 6     1. List Item 3-1
+ 7         1. List Item 3-1-1
  8 4. List Item 4
 ```
 
@@ -69,11 +69,11 @@ Which gives us:
 
 1. List Item 1
 2. List Item 2
-  1. List Item 2-1
-  2. List Item 2-2
+    1. List Item 2-1
+    2. List Item 2-2
 3. List Item 3
-  1. List Item 3-1
-    1. List Item 3-1-1
+    1. List Item 3-1
+        1. List Item 3-1-1
 4. List Item 4
 
 Again, pretty simple, isn't it?
@@ -82,7 +82,7 @@ Again, pretty simple, isn't it?
 
 Checklists are a little more complicated, but not much. They are essentially an unordered list with a little special magic added to the beginning. These types of list are specially supported by GitHub. Observe:
 
-```md 
+```
  1 - [ ] Incomplete Task 1
  2 - [ ] Incomplete Task 2
  3   - [ ] Incomplete Subtask 2-1
@@ -112,12 +112,12 @@ For a complete taks it goes:
 
 And for subtaks you of course indent by 2 spaces. That's really all there is to it. You now know how to make unordered lists, ordered lists and checklists in markdown. One last thing to note, however is that you can mix one list with a different sublist of a different type, I'm sure you can figure out how it is done.
 
-```md
+```
  1 1. Ordered Item 1
  2   - Unordered Sub Item
  3   - Unordered Sub Item
  4 2. Ordered Item 2
- 5   1. Ordered Sub Item
+ 5     1. Ordered Sub Item
  6 3. Ordered Item 3
  7
  8
@@ -133,11 +133,11 @@ And for subtaks you of course indent by 2 spaces. That's really all there is to 
   - Unordered Sub Item
   - Unordered Sub Item
 2. Ordered Item 2
-  1. Ordered Sub Item
+    1. Ordered Sub Item
 3. Ordered Item 3
 - Unordered Item 1
-  1. Ordered Sub Item
-  2. Ordered Sub Item
+    1. Ordered Sub Item
+    2. Ordered Sub Item
 - Unordered Item 2
   - Unordered Sub Item
 - Unordered Item 3
