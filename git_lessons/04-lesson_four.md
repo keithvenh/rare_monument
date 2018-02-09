@@ -54,4 +54,4 @@ Congratulations! You have successfully created a new feature branch with ``` git
 
 You've come a long way, and it is likely very overwhelming what you have just learned, but as you use your commands, over time it will become second nature. Let's move on to the final git lesson: Process.
 
-[GO TO LESSON 5](lesson_five.md)
+[DIRECTORY](README.md) | [LESSON 3](03-lesson_three.md) | [LESSON 5](05-lesson_five.md)

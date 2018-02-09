@@ -26,4 +26,4 @@ The above is referred to as markdown. It's a simple language that gets converted
 
 Congratulations! You created a new markdown file named brainstorm, and added some markdown to it so we know how to use it. We will use this file to add different brainstormed ideas for our game!
 
-[GO TO LESSON 3](lesson_three.md)
+[DIRECTORY](README.md)| [LESSON 1](01-lesson_one.md) | [LESSON 3](03-lesson_three.md)

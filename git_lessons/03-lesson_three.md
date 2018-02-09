@@ -98,4 +98,4 @@ To summarize the process:
 
 Congratulations, you are well on your way to becoming a **git guru**
 
-[GO TO LESSON 4](lesson_four.md)
+[DIRECTORY](README.md)| [LESSON 2](02-lesson_two.md) | [LESSON 4](04-lesson_four.md)

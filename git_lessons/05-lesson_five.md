@@ -45,6 +45,8 @@ Below is a table of all the commands we covered over that last 5 lessons, and wh
 | ``` git branch -d BranchName ```   | Delete the feature branch                        |
 | ``` git push origin BranchName ``` | Push the branch to the remote repository         |
 | ``` git merge BranchName ```       | Merge the feature branch into your active branch |
-| ``` git pull ``                    | Fetch and merge changes from the remote repository to your local computer |
+| ``` git pull ```                   | Fetch and merge changes from the remote repository to your local computer |
 
 Onward and Upward!
+
+[DIRECTORY](README.md) | [LESSON 4](04-lesson_four.md) | [MARKDWON LESSONS](../md_lessons/README.md)

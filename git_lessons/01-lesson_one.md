@@ -24,4 +24,4 @@ nothing to commmit, working directory clean
 
 Congratulations! Git is set up and ready to track any changes made to this directory. Now we just need to learn how to properly switch to a different branch, make changes and additions, save the changes and merge the branch back into the master branch.
 
-[GO TO LESSON 2](lesson_two.md)
+[DIRECTORY](README.md) | [GO TO LESSON 2](02-lesson_two.md)
