@@ -110,7 +110,7 @@ For a complete taks it goes:
 
 ``` - ``` ``` space ``` ``` [ ``` ``` x ``` ``` ] ``` ``` space ``` ``` YOUR TASK ```
 
-And for subtaks you of course indent by 2 spaces. That's really all there is to it. You now know how to make unordered lists, ordered lists and checklists in markdown. One last thing to note, however is that you can mix one list with a different sublist of a different type, I'm sure you can figure out how it is done.
+As for subtasks: indent by 2 spaces. That's really all there is to it. You now know how to make unordered lists, ordered lists and checklists in markdown. One last thing to note, however is that you can mix one list with a different sublist of a different type, I'm sure you can figure out how it is done.
 
 ```
  1 1. Ordered Item 1
