@@ -1,0 +1,98 @@
+Open vs code
+type ctrl+` (opens terminal)
+type git --version (should return a version)
+type git config --list (shoud return nothing)
+type git config --global user.name "Your Name"
+type git config --global user.email "your.email@example.com"
+type git config --list (should return your user.name and user.email that you just set)
+type ssh-keygen -t rsa -b 4096 -C "your.email@example.com" (Should return Generating public/private rsa key pair. == Enter file in which to save the key (file/path))
+press Enter to accept the default file path 
+Enter passphrase (empty for not passphrase): 
+press Enter for no passphrase 
+press Enter again
+
+The key's randomart image is:
++---[RSA 4096]----+
+|        . .      |
+|         o o     |
+|          . +    |
+|           o =   |
+|        S   o =  |
+|         + o + . |
+|        o =+= o  |
+|       .oOB%+o   |
+|       +E@@O&+   |
++----[SHA256]-----+
+
+type eval "$(ssh-agent -s)"
+Agent pid #####
+
+type ssh-add ~/.ssh/id_rsa
+
+type code ~/.ssh/id_rsa.pub
+Will open a file with your new ssh key 
+
+Within that file type ctrl+a then ctrl+c to copy the public key to your clipboard.
+
+Go into your github account, in the top right corner, click on your profile, then settings from the drop down menu
+
+Choose SSH and GPG keys from the left panel
+
+Click New SSH key button at the top 
+
+Under the title for the new key use something descriptive as this key is computer specific, I usually use something like "Keith's Home Laptop" or something similar.
+
+In the large Key box, press ctrl+v to past your ssh key 
+
+Click the add SSH key button (you may be prompted to enter your github password)
+
+Your computer should be fully set up to use git.
+
+In the search bar, type rare_monument to get to the repository for the tutorials and game, click to open the repository, and on the left side, there is a clone or download button. Click it, make sure clone iwth SSH is selected, and copy the git@github text by clicking the clipboard button next to it.
+
+back in your terminal, create a directory for your repsotories by typing mkdir Documents/repos/
+
+change into this directory by typing cd Documents/repos/
+
+type git clone and then press ctrl+shift+v to paste the address, then press enter 
+
+You will likely get this response:
+
+Cloning into 'rare_monument'...
+The authenticity of host 'github.com (192.30.253.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)?
+
+type yes and press enter 
+
+After typing yes, you will get another response 
+
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+remote: Counting objects: 88, done.
+remote: Compressing objects: 100% (68/68), done.
+remote: Total 88 (delta 32), reused 72 (delta 16), pack-reused 0
+Receiving objects: 100% (88/88), 275.43 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (32/32), done.
+Checking connectivity... done.
+
+You now have the rare_monument repository set up on your local computer to work with. change into this location by typing cd rare_monument/
+
+type git status to make sure everything is up to date
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+Looking good. Now, to open the repository for editing type code .
+
+this will pop open a new VS Code window with all the files accessible for the rare_monument repository. You now have great power, lets teach you great responsibility next.
+
+## ===== HOW TO GET TEXT TO ALWAYS WRAP IN VS Code ===== ##
+
+In VS Code go to file>preferences>settings.
+
+In the right box that pops up, you will see USER SETTINGS. between the curly braces, create a new line and type:
+
+"editor.wordWrap": "on" 
+
+Trust me, you'll be thankful you did.
