@@ -96,3 +96,7 @@ In the right box that pops up, you will see USER SETTINGS. between the curly bra
 "editor.wordWrap": "on" 
 
 Trust me, you'll be thankful you did.
+
+## ===== setting up remote origin ===== ##
+
+I will have to add you as a contibutor, you will have to accept my invitation, then you can make your first push up to the repository, setting up git push to automatically default to origin/master 
