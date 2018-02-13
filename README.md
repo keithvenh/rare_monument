@@ -5,8 +5,8 @@ A Text Adventure Game by the VH Bros
 ## Brainstorms and Checklists
 
 - [x] Create Remote Git Repository
-- [ ] Zack downloads VS Code
-- [ ] Zack creates github account
+- [ ] Download [Visual Studio Code](vs_code_lesson.md)
+- [ ] Create a [GitHub Account](github_account_setup.md)
 - [ ] Zack makes pull request
 - [ ] Keith teaches Zack Git
   - [ ] See [Git Lessons](git_lessons/README.md)
